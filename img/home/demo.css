@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: radial-gradient(rgba(185, 6, 240, 0.658), black);
+  color: whitesmoke;
+  font: 500 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+.container {
+  width: 60rem;
+  margin: 0 auto;
+  padding: 0 30px 0 30px;
+}
+
+.logo {
+  border-top: 5px solid snow;
+  padding: 2.5rem 0 1.375rem 0;
+  line-height: 2.55rem;
+  float: left;
+  font-size: 2.6rem;
+  margin-top: 0;
+}
+.logo a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.tagline {
+  margin: 4.125rem 0 1.375rem 0;
+  text-align: right;
+}
+.pri-nav {
+}
+.nav ul {
+  list-style: none;
+}
+.pri-nav li,
+.nav li {
+  display: inline-block;
+}
+.pri-nav {
+  font-size: larger;
+  text-align: right;
+}
