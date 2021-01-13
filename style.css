@@ -126,6 +126,9 @@ Footer
  ******************************** */
 
 .primary-footer {
+  display: grid;
+  place-content: center;
+  grid-template-columns: 1fr;
   padding-bottom: 2.75rem;
   padding-top: 2.75rem;
   font-size: 0.875rem;
@@ -569,64 +572,63 @@ footer .nav .icons img {
   margin: 0px 30px 0px 60px;
 }
 
-
 /* =============
 Responsiveness
 ===============*/
-@media screen and (max-width:900px){
- 
+@media screen and (max-width: 900px) {
   /* Header and Nav */
-.tagline{
-  display: block;
-  margin-left: 280px;
-  text-align: left;
-}
-  nav ul{
+  .tagline {
+    display: block;
+    margin-left: 280px;
+    text-align: left;
+  }
+  nav ul {
     display: flex;
     flex-wrap: wrap;
   }
-  
-.register,.intro{
-  width: 720px;
-}
 
-.intro-margin {
-  margin-right:550px ;
-}
+  .register,
+  .intro {
+    width: 720px;
+  }
 
-/* Grid */
-  .grid-index{
+  .intro-margin {
+    margin-right: 550px;
+  }
+
+  /* Grid */
+  .grid-index {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .grid-index .teaser{
+  .grid-index .teaser {
     width: 500px;
-    margin-right: 250px ;
+    margin-right: 250px;
   }
-  .grid-register{
+  .grid-register {
     display: flex;
-    flex-flow:column wrap;
+    flex-flow: column wrap;
     justify-content: space-between;
   }
-  .speaker{
+  .speaker {
     display: flex;
     flex-direction: column;
   }
-  .venue-hall,.venue-hotel{
+  .venue-hall,
+  .venue-hotel {
     display: flex;
     flex-direction: column;
   }
-  .grid-schedule table{
+  .grid-schedule table {
     width: 600px;
   }
 }
 
 /* footer */
-footer{
+footer {
   display: flex;
   align-content: flex-end;
- 
 }
 footer .nav {
   margin-top: 20px;
@@ -636,60 +638,60 @@ footer .nav .icons img {
   height: 30px;
   margin: 0px 20px 0px 40px;
 }
-@media screen and (max-width:700px){
- 
+@media screen and (max-width: 700px) {
   /* Header and Nav */
-.tagline{
-  display: block;
-  margin-left: 280px;
-  text-align: left;
-}
-  nav ul{
+  .tagline {
+    display: block;
+    margin-left: 280px;
+    text-align: left;
+  }
+  nav ul {
     display: flex;
     flex-wrap: wrap;
   }
-  
-.register,.intro{
-  width: 720px;
-}
 
-.intro-margin {
-  margin-right:550px ;
-}
+  .register,
+  .intro {
+    width: 720px;
+  }
 
-/* Grid */
-  .grid-index{
+  .intro-margin {
+    margin-right: 550px;
+  }
+
+  /* Grid */
+  .grid-index {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .grid-index .teaser{
+  .grid-index .teaser {
     width: 500px;
-    margin-right: 250px ;
+    margin-right: 250px;
   }
-  .grid-register{
+  .grid-register {
     display: flex;
-    flex-flow:column wrap;
+    flex-flow: column wrap;
     justify-content: space-between;
   }
-  .speaker{
+  .speaker {
     display: flex;
     flex-direction: column;
   }
-  .venue-hall,.venue-hotel{
+  .venue-hall,
+  .venue-hotel {
     display: flex;
     flex-direction: column;
   }
-  .grid-schedule table{
+  .grid-schedule table {
     width: 600px;
   }
 }
 
 /* footer */
-footer{
+footer {
   display: flex;
   align-content: flex-end;
- 
 }
 footer .nav {
   margin-top: 20px;
@@ -700,80 +702,76 @@ footer .nav .icons img {
   margin: 0px 20px 0px 40px;
 }
 /* 500px */
-@media screen and (max-width:500px){
-    /* Header and Nav */
-    .container{
-      width: 520px;
-    }
-.tagline{
-  display: block;
-  margin-left: 280px;
-  text-align: left;
-}
-  nav ul{
+@media screen and (max-width: 500px) {
+  /* Header and Nav */
+  .container {
+    width: 520px;
+  }
+  .tagline {
+    display: block;
+    margin-left: 280px;
+    text-align: left;
+  }
+  nav ul {
     display: flex;
     flex-wrap: wrap;
   }
-  nav .icons{
+  nav .icons {
     display: block;
-  
   }
-  
-.register,.intro{
-  width: 480px;
-}
 
-.intro-margin {
-  margin-right:550px ;
-}
+  .register,
+  .intro {
+    width: 480px;
+  }
 
-/* Grid */
-  .grid-index{
+  .intro-margin {
+    margin-right: 550px;
+  }
+
+  /* Grid */
+  .grid-index {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .grid-index .teaser{
+  .grid-index .teaser {
     width: 300px;
-    margin-right: 450px ;
+    margin-right: 450px;
   }
-  .grid-register{
+  .grid-register {
     display: flex;
-    flex-flow:column wrap;
+    flex-flow: column wrap;
     justify-content: space-between;
   }
-  .speaker{
+  .speaker {
     width: 520px;
     display: flex;
     flex-direction: column;
   }
-  .venue-hall,.venue-hotel{
+  .venue-hall,
+  .venue-hotel {
     display: flex;
     flex-direction: column;
   }
-  .grid-schedule{
+  .grid-schedule {
     width: 520px;
     margin-right: 480px;
   }
-  .grid-schedule table{
-   
+  .grid-schedule table {
     width: 90%;
-  
   }
-  
 
-/* footer */
-footer{
-  display: flex;
- 
- 
-}
-footer .nav {
-  margin-top: 20px;
-}
-footer .nav .icons img {
-  width: 30px;
-  height: 30px;
-  margin: 0px 10px 0px 10px;
-}
+  /* footer */
+  footer {
+    display: flex;
+  }
+  footer .nav {
+    margin-top: 20px;
+  }
+  footer .nav .icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px 0px 10px;
+  }
 }
